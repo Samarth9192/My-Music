@@ -38,8 +38,10 @@ function seekup(mouseX) {
 async function getSongs() {
     let a = await fetch("https://samarth9192.github.io/My-Music/songs.json");
     let response = await a.json();
-    // let div = document.createElement("div");
-    // div.innerHTML = response.songs;
+    for(let i=0; i<3; i++){
+    let div = document.createElement("div");
+    div.innerHTML = response.songs[i];
+    }
     // let as = div.getElementsByTagName("a");
     // let songs = [];
     // for (let index = 0; index < as.length; index++) {
