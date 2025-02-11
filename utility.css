@@ -1,0 +1,95 @@
+.radius{
+    border-radius: 33px;
+}
+.bradius{
+    border-radius: 5px;
+}
+.b{
+    border: 2px solid red;
+}
+.width{
+    width: 25px;
+}
+.flex{
+    display: flex;
+}
+.invert{
+    filter: invert(1);
+}
+.fw{
+    font-weight: normal;
+}
+.cfs{
+    font-size: 12px;
+}
+.m1{
+    margin: 7px;
+}
+.a{
+    color: white;
+    text-decoration: none;
+}
+
+.wid{
+    width: 22px;
+}
+.hide{
+    position: absolute;
+    left: 0%;
+}
+.hidden{
+    display: none;
+}
+@media (max-width: 650px){
+    .m{
+        display: none;
+    }
+    .m2{
+        display: block;
+    }
+    .card {
+        width: 210px;
+        height: 260px;
+    }
+    .cardContainer {
+        justify-content: center;
+    }
+    .song-name{
+        height: 38px;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media (max-width: 460px){
+    .card {
+        width: 340px;
+        height: 390px;
+        font-size: 18px;
+    }
+    .songbtn{
+        width: 117px;
+    }
+    .playbtn {
+        padding: 5px 0px;
+        margin: 0px;
+        width: 407px;
+        flex-direction: column;
+        height: 130px;
+        gap: 14px;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .seek{
+        margin: 6px 0px;
+        width: calc(100vw - 80px);
+        min-width: 445px;
+    }
+    .song-time{
+        font-size: 13px;
+        width: 77px;
+    }
+}
+
+  
+  

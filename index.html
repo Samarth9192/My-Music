@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img class="invert" src="assets/logo.png" alt="logo"></div>
+        <div class="home">
+            <button class="homebtn btn"><img src="assets/home.png" alt="home"></button>
+            <div class="search-bar">
+                <div class="search"><img class="width invert" src="assets/search.svg" alt=""></div>
+                <input type="text" placeholder="What do you want to play?" />
+                <div class="search"><img class="width invert" src="assets/browse.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="mainbtn m">
+            <button class="sign btn radius">Sign up</button>
+            <button class="login radius btn radius">Log in</button>
+        </div>
+    </nav>
+    <div class="hamburger" id="hamburger">
+        <img class="invert" id="ham" width="33px" src="assets/hamburger.png" alt="">
+        <div class="mainbtn"></div>
+        <button class="sign btn radius m2">Sign up</button>
+        <button class="login radius btn radius m2">Log in</button>
+    </div>
+    </div>
+    <div class="container flex">
+        <div class="left bradius">
+            <div class="library">
+                <div class="lib"><img class="invert width" src="assets/lib.svg" alt="">
+                    <h3 title="Collapse Your Library" style="cursor: pointer;">Your Library</h3>
+                    <img class="invert hidden" id="cross" width="15px" src="assets/close.png" alt="">
+                </div>
+                <div class="cplaylist bradius">
+                    <h4>Create your first Playlist</h4>
+                    <p>It's easy we'll help you</p>
+                    <button class="playlist radius btn radius">Create Playlist</button>
+                </div>
+                <div class="cplaylist bradius h">
+                    <h4>Let's find some podcasts to follow</h4>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button class="playlist radius btn radius">Browse Podcasts</button>
+                </div>
+                <div class="songList">
+                    <div id="box">
+                    </div>
+                </div>
+                <footer>
+                    <div class="foot">
+                        <a href="">Legal</a>
+                        <a href="">Safety&Privacy Center</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookies</a>
+                    </div>
+                    <div class="foot">
+                        <a href="">AboutAds</a>
+                        <a href="">Accessibility</a>
+                    </div>
+                    <div class="foot ft">
+                        <a href="" target="_main">Cookies</a>
+                    </div>
+                    <button class="lang btn radius">English</button>
+                </footer>
+            </div>
+        </div>
+        <div class="right bradius">
+            <h2>Spotify Playlists</h2>
+            <div class="cardContainer">
+                <div class="card bradius">
+                    <button class="play btn">
+                        <img src="assets/play.png" alt="">
+                    </button>
+                    <img class="bradius" src="assets/1st song.avif" alt="">
+                    <h4 class="fw m1">Jo tum mere ho</h4>
+                    <p class="cfs m1"><a class="a" href="">Artist Name</a></p>
+                </div>
+
+
+
+                <div class="card bradius">
+                    <button class="play btn">
+                        <img src="assets/play.png" alt="">
+                    </button>
+                    <img class="bradius" src="assets/1st song.avif" alt="">
+                    <h4 class="fw m1">Jo tum mere ho</h4>
+                    <p class="cfs m1"><a class="a" href="">Artist Name</a></p>
+                </div>
+                <div class="card bradius">
+                    <button class="play btn">
+                        <img src="assets/play.png" alt="">
+                    </button>
+                    <img class="bradius" src="assets/1st song.avif" alt="">
+                    <h4 class="fw m1">Jo tum mere ho</h4>
+                    <p class="cfs m1"><a class="a" href="">Artist Name</a></p>
+                </div>
+                <div class="card bradius">
+                    <button class="play btn">
+                        <img src="assets/play.png" alt="">
+                    </button>
+                    <img class="bradius" src="assets/1st song.avif" alt="">
+                    <h4 class="fw m1">Jo tum mere ho</h4>
+                    <p class="cfs m1"><a class="a" href="">Artist Name</a></p>
+                </div>
+                <div class="card bradius">
+                    <button class="play btn">
+                        <img src="assets/play.png" alt="">
+                    </button>
+                    <img class="bradius" src="assets/1st song.avif" alt="">
+                    <h4 class="fw m1">Jo tum mere ho</h4>
+                    <p class="cfs m1"><a class="a" href="">Artist Name</a></p>
+                </div>
+            </div>
+            <div class="playbtn bradius">
+                <div class="song-name"></div>
+                <div class="songbtn">
+                    <img class="wid2 invert" id="prev" src="assets/previous.png" alt="" style="cursor: pointer;">
+                    <img class="wid2 invert" id="pl" src="assets/play.png" alt="" style="cursor: pointer;">
+                    <img class="wid2 invert" id="next" src="assets/next.png" alt="" style="cursor: pointer;">
+                </div>
+                <div class="time">
+                    <div class="song-time"></div>
+                    <div class="vol">
+                        <img width="22px" class="invert" src="assets/volume.png" alt="">
+                        <div class="range">
+                            <input type="range" name="volume">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seek bradius">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
