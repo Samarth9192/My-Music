@@ -36,8 +36,8 @@ function seekup(mouseX) {
 // Get song from folder 
 
 async function getSongs() {
-    let a = await fetch("https://samarth9192.github.io/My-Music/Songs/");
-    let response = await a.text();
+    let a = await fetch("https://samarth9192.github.io/My-Music/songs.json");
+    let response = await a.json();
     let div = document.createElement("div");
     div.innerHTML = response;
     let as = div.getElementsByTagName("a");
